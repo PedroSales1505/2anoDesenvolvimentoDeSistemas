@@ -26,7 +26,6 @@ fimPara
 para i <- 1 ate 3 faca
 escreval("O preço do"," n",i,"°","estoque total é:",preco[i] * estoque[i], ". E a média é ", preco[i] + estoque[i]/3)
 fimPara
-limpatela
 //EXERCICIO 2
 para i <- 1 ate 9 faca
 escreval ("Digite de 1 até 9")
