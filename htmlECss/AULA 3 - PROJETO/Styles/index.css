@@ -1,0 +1,54 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: rgb(247, 132, 0);
+}
+
+header,
+footer {
+    width: 100%;
+    background-color: rgb(175, 6, 6);
+    color: white;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+/* Se tiver scroll, não deixe esse código (ou comente) */
+/* Caso não tenha scroll, deixe para ficar embaixo */
+
+footer {
+    bottom: 0%;
+}
+
+main {
+    width: 80%;
+    background-color: rgb(219, 71, 34);
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 14pt;
+    color: white;   
+}
+
+.jogo{
+    width: 80%;
+    margin: 20px auto;
+    background-color: rgb(248, 135, 6);
+    display: flex;
+}
+
+
+.descJogo, .imagemJogo {
+    width: 50%;
+    padding: 10px;
+}
+
+.imagemJogo img {
+    width: 100%;
+    border-radius: 15px;
+}
