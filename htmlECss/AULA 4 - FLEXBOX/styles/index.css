@@ -6,6 +6,7 @@
 .pai {
     width: 80%;
     padding: 20px;
+    height: 100%;
     background-color: rgb(76, 207, 201);
     display: flex;
     /* row linha*/
