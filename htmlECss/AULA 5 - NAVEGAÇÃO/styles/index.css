@@ -63,3 +63,10 @@ main {
     font-family: 'Times New Roman', Times, serif;
       font-size: 20pt;
 }
+
+#introdução{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+      font-size: 20pt;
+    gap: 10px;
+}
