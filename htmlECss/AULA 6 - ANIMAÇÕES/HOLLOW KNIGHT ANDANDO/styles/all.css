@@ -1,0 +1,16 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background-image: url(/images/hollownest.png);
+    background-size: 100%;
+    overflow: hidden;
+}
+
+#TITULO {
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
