@@ -4,9 +4,10 @@
 }
 
 @keyframes HKANDANDO {
+
     /* indo */
     0% {
-        right: -10%;
+        right: -20%;
     }
 
     100% {
@@ -20,7 +21,7 @@
     bottom: 4%;
     right: -5%;
     animation-name: HKANDANDO;
-    animation-duration: 21s;
+    animation-duration: 13s;
     animation-iteration-count: infinite;
     transform: scaleX(1);
 }
