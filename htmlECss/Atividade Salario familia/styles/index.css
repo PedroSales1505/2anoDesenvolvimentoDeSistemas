@@ -13,15 +13,52 @@ body {
 }
 
 form {
-    padding: 50px;
-    background-color: rgb(196, 215, 214);
+    padding: 80px;
+    background-color: rgb(255, 255, 255);
     border-radius: 10px;
     box-shadow: 10px 10px 10px;
     flex-direction: column;
     display: flex;
-    gap: 15px;
+    gap: 25px;
 }
 
-#IMAGEM{
+#IMAGEM {
+    width: 100%;
+    padding: 2%;
+    align-items: center;
+}
 
+.formAssunto {
+    text-align: center;
+    font-size: 15pt;
+}
+#valores {
+    display:flex
+}
+
+.ParteEsquerda {
+    border-bottom: 5px solid rgb(255, 250, 250);
+    padding: 0px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: 0px;
+    gap: 0px;
+}
+
+.ParteDireita div
+, .ParteEsquerda div{
+    border: 1px solid black;
+    text-align: center;
+    font-size: larger;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    justify-content: space-between;
+}
+
+.ParteDireita {
+    border-bottom: 5px solid rgb(255, 250, 250);
+    padding: 0px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: 0px;
+    gap: 0px;
 }
