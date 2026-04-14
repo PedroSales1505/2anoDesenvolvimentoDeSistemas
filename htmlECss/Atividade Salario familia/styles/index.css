@@ -92,3 +92,30 @@ form {
     /* Usa a cor de fundo do seu body para destacar o título */
     font-weight: bold;
 }
+
+@font-face {
+    font-family: The_last_shuriken;
+    font-weight: normal;
+    src: url('../fonts/the_last_shuriken/The\ Last\ Shuriken.ttf');
+}
+
+@font-face {
+    font-family: Typewriter_inked;
+    font-weight: normal;
+    src: url('../fonts/typewriter_inked/TypewriterInked-Regular.ttf');
+}
+/* algumas fontes podem ter BOLD que quer deixar em negrito */
+
+:root{
+    --fontePrimaria: The_last_shuriken;
+    --fonteSecundaria: Typewriter_inked;
+    
+}
+
+h3{
+    font-family: var(--fonteSecundaria);
+}
+
+h1{
+   font-family: var(--fontePrimaria);
+}
