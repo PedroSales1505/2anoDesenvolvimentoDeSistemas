@@ -29,12 +29,18 @@ form {
 }
 
 .formAssunto input {
-    width: 100%; /* Faz a caixa ocupar toda a largura disponível */
-    padding: 15px; /* Aumenta o espaço interno, deixando a caixa mais "gordinha" e alta */
-    font-size: 14pt; /* Aumenta o tamanho do texto que o usuário vai digitar */
-    border-radius: 5px; /* Deixa as pontas arredondadas para combinar com o formulário */
-    border: 1px solid #020202; /* Adiciona uma borda cinza suave */
-    box-sizing: border-box; /* Garante que o padding não faça a caixa vazar para fora da tela */
+    width: 100%;
+    /* Faz a caixa ocupar toda a largura disponível */
+    padding: 15px;
+    /* Aumenta o espaço interno, deixando a caixa mais "gordinha" e alta */
+    font-size: 14pt;
+    /* Aumenta o tamanho do texto que o usuário vai digitar */
+    border-radius: 5px;
+    /* Deixa as pontas arredondadas para combinar com o formulário */
+    border: 1px solid #020202;
+    /* Adiciona uma borda cinza suave */
+    box-sizing: border-box;
+    /* Garante que o padding não faça a caixa vazar para fora da tela */
 }
 
 /* Centraliza a tabela sem forçar ela a ficar gigante */
@@ -46,37 +52,43 @@ form {
 }
 
 /* Organiza as colunas */
-.ParteEsquerda, 
+.ParteEsquerda,
 .ParteDireita {
     display: flex;
     flex-direction: column;
-    width: 50%; /* Cada lado ocupa metade da tabela */
+    width: 50%;
+    /* Cada lado ocupa metade da tabela */
 }
 
 /* Estilo geral das "células" */
 .ParteEsquerda div,
 .ParteDireita div {
-    padding: 12px 10px; /* Um respiro menor, mas ainda confortável */
+    padding: 12px 10px;
+    /* Um respiro menor, mas ainda confortável */
     text-align: center;
     font-size: 14pt;
     font-family: 'Lucida Sans', sans-serif;
-    border: 1px solid #636363; /* Borda cinza bem suave */
-    margin-bottom: -1px; /* TRUQUE: Evita que as bordas horizontais fiquem duplicadas (grossas) */
+    border: 1px solid #636363;
+    /* Borda cinza bem suave */
+    margin-bottom: -1px;
+    /* TRUQUE: Evita que as bordas horizontais fiquem duplicadas (grossas) */
     background-color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 60px; /* Garante que as linhas fiquem com a mesma altura */
+    min-height: 60px;
+    /* Garante que as linhas fiquem com a mesma altura */
 }
 
 /* TRUQUE: Evita borda dupla na vertical entre a coluna esquerda e direita */
 .ParteDireita div {
-    margin-left: -1px; 
+    margin-left: -1px;
 }
 
 /* Destaca o cabeçalho da tabela (a primeira linha) */
 .ParteEsquerda div:first-child,
 .ParteDireita div:first-child {
-    background-color: rgb(174, 171, 171); /* Usa a cor de fundo do seu body para destacar o título */
+    background-color: rgb(174, 171, 171);
+    /* Usa a cor de fundo do seu body para destacar o título */
     font-weight: bold;
 }
