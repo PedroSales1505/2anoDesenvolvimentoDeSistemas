@@ -1,4 +1,18 @@
-*{
+* {
     padding: 0%;
     margin: 0%;
+}
+
+@font-face {
+    font-family: The_last_shuriken;
+    font-weight: normal;
+    src: url('../fonts/typewriter_inked/TypewriterInked-Regular.ttf');
+}
+
+:root {
+    --fontePrimaria: TypewriterInked-Regular;
+}
+
+h1{
+    font-family: var(--fontePrimaria);
 }
