@@ -8,8 +8,6 @@ console.log("Olá Mundo!");
 
 //Acessa documento, busca o elemento com o ID selecionado
 //inner = dentro
-document.getElementById("Resposta").innerText = "<h1>QUE LEGAL</h1>";
-document.getElementById("Resposta").innerHTML = "<h1>QUE LEGAL</h1>";
 
 // string - caractere ("Pedro")
 var nome = "Pedro";
@@ -20,9 +18,8 @@ var ligado = "true";
 // *obs para numeros inteiros - int()
 var idade = 23;
 var dinheiro = 108.50;
-
+// array - lista , vetor
 var listaCompras = []
-
 console.log(typeof(nome));
 console.log(typeof(ligado));
 console.log(typeof(idade));
