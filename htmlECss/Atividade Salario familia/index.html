@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade</title>
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+
+<body>
+    <form action="#">
+        <img src="images/salario-familia.jpg" alt="Previdência">
+        <div class="formAssunto">
+            <label for="Emprego"></label>
+            <input id="Emprego" required type="text" placeholder="Empregado">
+            <label for=""></label>
+        </div>
+
+        <div class="formAssunto">
+            <label for="filhos"></label>
+            <input id="filhos" required type="number"
+                placeholder="Quantidade de filhos menores de 14 anos ou inválidos">
+            <label for=""></label>
+        </div>
+
+        <div class="formAssunto">
+            <label for="contribuicao"></label>
+            <input id="contribuicao" required type="number" placeholder="Salário contribuição">
+        </div>
+        <div id="valores">
+            <div class="ParteEsquerda">
+                <div class="tabela"><h3>Salario-contribuição</h3></div>
+                <div class="tabela"><h3>Até R$806,80</h3></div>
+                <div class="tabela"><h3>Entre R$ 806,81 e R$ 1212,64</h3></div>
+                <div class="tabela"><h3>Mais R$ 1212,64</h3></div>
+            </div>
+
+            <div class="ParteDireita">
+                <div class="tabela"><h3>Cota do Salário Família</h3></div>
+                <div class="tabela"><h3>R$ 41,37 por filho</h3></div>
+                <div class="tabela"><h3>R$29,16 por filho</h3></div>
+                <div class="tabela"><h3>Não há</h3></div>
+
+
+            </div>
+        </div>
+        <button type="submit"><h1>CALCULAR</h1></button>
+    </form>
+</body>
+
+</html>

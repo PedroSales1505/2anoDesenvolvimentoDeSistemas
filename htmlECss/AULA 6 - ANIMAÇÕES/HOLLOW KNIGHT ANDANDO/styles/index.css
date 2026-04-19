@@ -1,0 +1,27 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+@keyframes HKANDANDO {
+
+    /* indo */
+    0% {
+        right: -20%;
+    }
+
+    100% {
+        right: 140%;
+    }
+}
+
+#HOLLOWKNIGHT {
+    position: absolute;
+    width: 200px;
+    bottom: 4%;
+    right: -5%;
+    animation-name: HKANDANDO;
+    animation-duration: 13s;
+    animation-iteration-count: infinite;
+    transform: scaleX(1);
+}

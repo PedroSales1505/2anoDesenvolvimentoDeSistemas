@@ -1,0 +1,81 @@
+#botaoAnima {
+    padding: 5px;
+    margin: 10px;
+    background-color: var(--corPrimaria);
+    color: var(--corSecundaria);
+    border: none;
+    transition: 0.7s;
+}
+
+#textoAnima:focus {
+    border: none;
+    transition: 1s;
+    border-bottom: 2px solid black;
+    background-color: rgb(212, 212, 212);
+    border-radius: 10px;
+}
+
+body {
+    overflow: hidden;
+}
+
+#botaoAnima:active {
+    border: 2px solid black;
+}
+
+#botaoAnima:hover {
+    background-color: var(--corSecundaria);
+    color: var(--corPrimaria);
+    padding: 10px;
+}
+
+@keyframes teste {
+    0% {
+        width: 150px;
+        height: 150px;
+        background-color: violet;
+    }
+
+    20% {
+        border-radius: 100%;
+        background-color: rgb(255, 162, 0);
+    }
+
+    40% {
+        margin-top: 30px;
+        background-color: rgb(255, 255, 0)
+    }
+
+    60% {
+        margin-left: 1500px;
+        transform: rotate(360deg);
+        background-color: red;
+    }
+
+    80% {
+        border-bottom-right-radius: 1500px;
+        background-color: coral
+    }
+
+    100% {
+        margin-top: 0%;
+        width: 200px;
+        height: 200px;
+        border-radius: 0%;
+        background-color: var(--corSecundaria)
+    }
+}
+
+#caixa {
+    width: 200px;
+    height: 200px;
+    animation-name: teste;
+    animation-duration: 5.5s;
+    background-color: var(--corSecundaria);
+}
+
+/* 
+#botaoAnima:hover{
+animation-name:teste;
+animation-duration: 3s;
+} */

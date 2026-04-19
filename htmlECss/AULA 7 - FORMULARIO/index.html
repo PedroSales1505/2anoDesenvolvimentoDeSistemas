@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 7</title>
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+
+<body>
+
+    <form action="#">
+        <h1>Formulário Cabuloso</h1>
+        <!-- Input Nome -->
+
+        <div class="formAssunto">
+            <label for="nome">Nome: </label>
+            <input id="nome" required type="text" placeholder="Exemplo: Guilherme">
+
+        </div>
+        <!-- Input Idade -->
+        <div class="formAssunto">
+            <label for="email">Idade: </label>
+            <input id="email" required type="email" placeholder="email@gmail.com">
+        </div>
+        <div class="formAssunto">
+            <label for="cor">Cor: </label>
+            <input id="cor" required type="color">
+        </div>
+        <!-- Select estado -->
+        <select name="estado" id="estado">
+            <option value=""> - </option>
+            <option value="SP">São Paulo</option>
+            <option value="DF">Distrito Federal</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="BA">Bahia</option>
+            <option value="SC">Santa Catarina</option>
+
+        </select>
+        <div class="formAssunto">
+            <label for="idade">Idade: </label>
+            <input id="idade" type="number" required min="0" max="200" step="1" placeholder="15,16...">
+        </div>
+        <!-- FeedBack -->
+        <div class="formAssunto">
+            <textarea style="resize: none;" name="feedback" id="feedback" cols="30" rows="10">
+             </textarea>
+        </div>
+        <button type="reset">Resetar</button>
+        <!-- Enviar -->
+        <button type="submit">Enviar</button>
+        <button type="button" id="bemvindo">Nome</button>
+        <script>
+            document.getElementById("bemvindo").addEventListener("click", () => {
+                nome = document.getElementById("nome").value
+                alert("Seja bem vindo(a)! " + nome)
+            })
+        </script>
+    </form>
+</body>
+
+</html>

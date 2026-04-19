@@ -1,0 +1,32 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+@font-face {
+    font-family: The_last_shuriken;
+    font-weight: normal;
+    src: url('../fonts/the_last_shuriken/The\ Last\ Shuriken.ttf');
+}
+
+@font-face {
+    font-family: Typewriter_inked;
+    font-weight: normal;
+    src: url('../fonts/typewriter_inked/TypewriterInked-Regular.ttf');
+}
+/* algumas fontes podem ter BOLD que quer deixar em negrito */
+
+:root{
+    --fontePrimaria: The_last_shuriken;
+    --fonteSecundaria: Typewriter_inked;
+    
+}
+
+
+h1, h3{
+    font-family: var(--fonteSecundaria);
+}
+
+p{
+   font-family: var(--fonteSecundaria);
+}
