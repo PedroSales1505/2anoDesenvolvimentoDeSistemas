@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudos Python: Módulos</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
+    
+    <style>
+        /* Fundo Animado Moderno */
+        body {
+            background: linear-gradient(-45deg, #0f2027, #203a43, #2c5364, #1e3c72);
+            background-size: 400% 400%;
+            animation: gradientBG 15s ease infinite;
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            overflow: hidden;
+        }
+
+        @keyframes gradientBG {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        /* Configurações Gerais do Texto */
+        .reveal {
+            font-family: 'Poppins', sans-serif;
+            color: #ffffff;
+        }
+
+        .reveal h1, .reveal h2, .reveal h3 {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #00d2ff;
+            text-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+            margin-bottom: 20px;
+        }
+
+        .reveal h1 { font-size: 3.2em; line-height: 1.1; }
+        .reveal h2 { font-size: 2em; color: #fca048; border-bottom: 2px solid rgba(255,255,255,0.1); padding-bottom: 15px; }
+
+        /* Efeito "Glassmorphism" (Vidro) para os Slides */
+        .glass-card {
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            padding: 50px 40px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+            width: 90%;
+            margin: 0 auto;
+        }
+
+        /* Ajustes de Texto e Lista */
+        .reveal p, .reveal li {
+            font-size: 0.9em;
+            line-height: 1.6;
+            text-align: left;
+            font-weight: 300;
+        }
+
+        .reveal ul { margin-left: 5%; width: 90%; }
+        .reveal li { margin-bottom: 15px; padding-left: 10px; }
+
+        /* Destaques no Código */
+        .highlight {
+            color: #50fa7b;
+            font-weight: 600;
+            font-
