@@ -2,7 +2,7 @@ var nome = "Goku";
 var vida = 5;
 var moeda = 0;
 var dano = 1.35;
-var icon = "images/GOKUBASEANIME.gif"
+var icon = "images/Goku-ki.gif"
 
 function mostrarPersonagem() {
     document.getElementById("ficha").innerHTML = `
@@ -52,7 +52,7 @@ function addDano() {
 
 document.getElementById("transformar").addEventListener("click", addTransformar1)
 function addTransformar1() {
-    icon = "images/GOKUSSJ1.gif";
+    icon = "images/SSJ1.gif";
     dano= dano*2
     mostrarPersonagem();
 }
