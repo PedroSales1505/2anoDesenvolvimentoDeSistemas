@@ -65,7 +65,10 @@ nav a {
     color: #1a1a1a;
 }
 
-.hero-overlay h1 { font-size: 26px; margin-bottom: 10px; }
+.hero-overlay h1 {
+    font-size: 26px;
+    margin-bottom: 10px;
+}
 
 .btn-dark {
     background: #2a221f;
@@ -77,7 +80,8 @@ nav a {
 }
 
 /* Payments */
-.payments h2, .gallery h2 {
+.payments h2,
+.gallery h2 {
     text-align: center;
     margin-bottom: 40px;
     font-weight: bold;
@@ -96,8 +100,14 @@ nav a {
     text-align: center;
 }
 
-.payment-card img { width: 60px; margin-bottom: 20px; }
-.payment-card p { font-weight: bold; }
+.payment-card img {
+    width: 60px;
+    margin-bottom: 20px;
+}
+
+.payment-card p {
+    font-weight: bold;
+}
 
 /* Services */
 .services-dark {
@@ -111,9 +121,18 @@ nav a {
     gap: 40px;
 }
 
-.services-text { flex: 1; }
-.services-img { flex: 1; }
-.services-img img { width: 100%; border-radius: 10px; }
+.services-text {
+    flex: 1;
+}
+
+.services-img {
+    flex: 1;
+}
+
+.services-img img {
+    width: 100%;
+    border-radius: 10px;
+}
 
 /* Gallery */
 .gallery-grid {
@@ -134,12 +153,19 @@ nav a {
     background: white;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
-.table-card h3 { text-align: center; margin-bottom: 20px; font-size: 22px; }
+.table-card h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
 
-table { width: 100%; border-collapse: collapse; }
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
 
 th {
     background-color: #b72e2e;
